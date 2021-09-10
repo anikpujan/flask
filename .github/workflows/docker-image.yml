@@ -33,6 +33,7 @@ jobs:
           context: ./
           file: ./Dockerfile
           push: true
+          image: anikpujan/flask-app
           
 
       - name: Image digest
